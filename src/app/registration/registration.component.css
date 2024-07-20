@@ -1,0 +1,40 @@
+
+.fourth-row-text{
+    margin-top: 100px;
+  }
+  .fifth-row{
+    background-image: url('https://plainbackground.com/plain1024/0078d7.png');
+    padding-bottom: 50px;
+  }
+  .fifth-row-text{
+    padding: 130px;
+  }
+  .fifth-row-text h1{
+    color: white;
+  }
+  .fifth-row{
+    background-image: url('https://plainbackground.com/plain1024/0078d7.png');
+  }
+  .first-last-names{
+    display: flex;
+    padding: 10px;
+  }
+  .form-texts{
+    color: white;
+  }
+  .register{
+    background-color: rgb(192, 176, 2);
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .t-area{
+    padding-left: 10px;
+  }
+  .txt-area{
+    width: 450px;
+    height: 100px;
+  }
+  .l-name{
+    margin-left: 30px;
+  }

@@ -1,0 +1,60 @@
+<!-- <iframe src="../home/home.component.html" style="border:none;" title="Iframe Example"></iframe> -->
+
+<nav class="navbar navbar-expand-lg navbar-light" id="myNavbar">
+    <img src="https://bydnow.com/wp-content/uploads/2023/12/TIMPSS-2-1-300x81.png" alt="" class="logo">
+
+    <span style="cursor:pointer" onclick="openNav()" id="program">PROGRAMS<i class="fa fa-chevron-down"></i>
+    </span>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" (click)="myFunc()"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" id="seperate">
+                <a class="nav-link" routerLink="/home" id="change-color">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink='/aboutus' id="change-color">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="change-color" routerLink="/courses">All Courses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="change-color" routerLink="#">News feed</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="#" id="change-color">Contact</a>
+            </li>
+            <li>
+                <button class="button-page" routerLink="loginButton signup">signup</button>
+            </li>
+            <li>
+                <button class="button-page" routerLink="loginButton login">login</button>
+            </li>       
+        </ul>
+    </div>
+</nav>
+
+
+
+<!-- <iframe class='iframe' id='iframe'
+    style='width: 100vw;height: 100vh;border:none;position:fixed; top:0; left:0; bottom:0; right:0; z-index:10000;display:none;'
+    src="https://aeiotechvinaynarlagiri.edmingle.com/js-sdks/signup-sdk/iframe.php?subdomain=aeiotechvinaynarlagiri"></iframe>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://aeiotechvinaynarlagiri.edmingle.com/js-sdks/signup-sdk/signup-sdk.js?v=2.8"></script>
+<a href="#" class='loginButton login'>Log In</a>
+<a href="#" class='loginButton signup'>Sign Up</a>
+<a href="#" class='postLogin goToAccountButton' style='display:none'>Go To My Account</a>
+<a href="#" class='postLogin logout' style='display:none'>Log Out</a>
+
+<a class="course-landing-buy_382" data-instbundleid="382">Purchase</a>
+<script>
+    $(window).on('load', function () {
+        loadInstBundleDetails();
+    });
+</script> -->

@@ -1,0 +1,54 @@
+/* Add these styles to your app.component.css */
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding-top: 56px; /* Adjust this value based on your top navigation bar height */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 56px); /* Adjust this value based on your top navigation bar height */
+    padding-top: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  /* Navigation Links Styles */
+  .nav-link {
+    color: #333;
+    transition: background-color 0.3s;
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-link:hover {
+    color: white;
+    background-color: rgb(215, 18, 156);
+    animation: shake 0.5s ease-in-out;
+  }
+  
+  /* Shake Animation */
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    20%, 60% {
+      transform: translateX(8px);
+    }
+    40%, 80% {
+      transform: translateX(-8px);
+    }
+  }
+  
+  /* Reset transform on active link */
+  .nav-link.active {
+    transform: none;
+  }
+  

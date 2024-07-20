@@ -1,0 +1,51 @@
+.bydnow-img{
+    width: 100%;
+}
+.usabout{
+    background-image: url('../../assets/online-programming-course-cta-section-bg.svg');
+    justify-content: center;
+    padding: 40px;
+}
+.text{
+    text-align: center;
+    color: white;
+}
+.img-div{
+    width: 90%;
+}
+.explain-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.aboutus{
+    color: white;
+}
+.arrow{
+    width: 80%;
+}
+.padding{
+   padding: 100px;
+}
+.goal{
+    text-align: center;
+}
+.yellow{
+    background-color: rgb(234, 195, 2);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 100px;
+    width: 100%;
+}
+.our-vission{
+    padding: 40px;
+}
+.our-vission p{
+    font-size: 18px;
+}
+.or-vsion{
+    padding: 40px;
+}
+.or-mission-img{
+    width: 300px;
+}

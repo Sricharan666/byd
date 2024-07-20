@@ -1,0 +1,51 @@
+.navbar {
+    /* background-color: rgb(70, 1, 1); */
+    /* background-image: linear-gradient(to bottom right, rgb(255, 45, 230), rgb(246, 56, 106));  */
+    background-color: white;
+    height: 100px;
+}
+
+#program{
+    background-color: rgb(224, 6, 184);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#change-color,
+#navbarDropdownMenuLink {
+    color: black;
+    font-weight: 600;
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 5px 30px 5px 30px;
+}
+#change-color:hover{
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    padding: 5px 30px 5px 30px;
+}
+
+#change-color:active{
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 30px 5px 30px;
+}
+
+#seperate #change-color{
+    margin-left: 230px;
+}
+.button-page{
+    background-color: rgb(60, 108, 251);
+    border: 0px;
+    padding : 5px 30px 5px 30px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.logo {
+    width: 150px;
+    margin-left: 40px;
+}
